@@ -1,6 +1,6 @@
 *, * ::before, *::after {
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, sans-serif;
 }
 
 :root {
@@ -8,6 +8,18 @@
     --hue-wrong: 0;
     --hue-correct: 145;
 }
+
+header {
+    text-align:center;
+    border-radius: 5px;
+    background-color: rgb(70, 77, 83);
+    height: 200px;
+    width: 50%;
+    margin-right: 50px;
+    color: aliceblue;
+    box-shadow: 0 0 10px 2px;
+}
+
 body {
     --hue: var(--hue-neutral);
     padding: 0;
@@ -17,16 +29,16 @@ body {
     height: 40vw;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%)
+    background-color: rgba(27, 28, 37, 0.904);
 }
 
-body.correct {
+/* body.correct {
     --hue: var(--hue-correct);
 }
 
 body.wrong {
     --hue: var(--hue-wrong);
-}
+} */
 
 .container {
     width: 800px;
@@ -43,15 +55,16 @@ body.wrong {
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 20px 0;
+    margin-top: 50px;
 }
 
 .btn {
     height: 50px;
     --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 100%, 50%);
+    background-color: hsl(var(--hue), 70%, 50%);
     border-radius: 5px;
     padding: 5px 10px;
-    border-color: white
+    border-color: white;
 }
 
 .btn:hover {

@@ -92,28 +92,30 @@ var questions =[
        ]
 },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'When is the last day of the bootcamp?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Ehh Who Knows', correct: false },
+      { text: 'February 9, 2023', correct: false },
+      { text: 'March 9, 2023', correct: true },
+      { text: 'Neverrr!', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'How has the bootcamp been so far?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'FUN!!', correct: true },
+      { text: 'Super Stressful!!', correct: true},
+      { text: 'Educative', correct: true },
+      { text: 'Difficult!', correct: true }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'What does HTML stand for?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Hyper Text Processor', correct: false },
+      { text: 'Hyper Text Markup Language', correct: true },
+      { text: 'Hyper Text Multiple Langauge', correct: false },
+      { text: 'Hyper Tool Multi Language', correct: false }
     ]
   }
 ]
